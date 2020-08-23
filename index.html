@@ -1,4 +1,3 @@
-<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -11,15 +10,15 @@
 <style type="text/css">
 <!--
 body {
-	background-color: #070E18;
+	background-color: #000000;
 	margin: 0;
 	padding: 0;
 	color: #000;
 	font-family: Abel;
-	font-size: 14pt;
+	font-size: 16pt;
 	line-height: normal;
 	text-decoration: none;
-	background-image: url(../background.png);
+	background-image: url(../Optical-Fiber-Wallpaper-2560X1600.png);
 	background-repeat: no-repeat;
 }
 
@@ -30,8 +29,8 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
-	padding-right: 15px;
-	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	padding-right: 100px;
+	padding-left: 100px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
@@ -66,6 +65,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 /* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
 .header {
 	background-color: #FFFFFF;
+	font-size: 14px;
 }
 
 /* ~~ This is the layout information. ~~ 
@@ -175,9 +175,17 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 .container .content h1 {
 	font-family: Arial, Helvetica, sans-serif;
+	margin-right: auto;
+	margin-left: auto;
 }
 body,td,th {
 	color: #434343;
+}
+.container .footer .footer {
+	font-family: Abel, Gotham Light, Gotham Book, Gotham Bold, Gotham Medium;
+}
+.footer strong {
+	font-family: Arial Black, Gadget, sans-serif;
 }
 -->
 </style></head>
@@ -186,35 +194,30 @@ body,td,th {
 
 <div class="container">
   <div class="header">
-    <div align="center"><a href="#"><img src="../solutions1.png" alt="Insert Logo Here" name="Insert_logo" width="456" height="120" id="Insert_logo" style="background-color: #FFFFFF; display: block;" /></a> 
-      <!-- end .header -->
-    </div>
+    <div align="center"><a href="#"><img src="../solutions1.png" alt="Insert Logo Here" name="Insert_logo" width="456" height="120" id="Insert_logo" style="background-color: #FFFFFF; display: block;" align="top" /></a> 
+      <!-- end .header --><img src="../Data Mart 1 copy.png" alt="" width="850" height="471" class="container" align="absmiddle" /></div>
   </div>
   <div class="content">
-    <h1 align="center"><img src="../Data Mart 1 copy.png" width="766" height="389" align="absmiddle" /></h1>
-    <h1 align="center">The Ephemeris Approach to Data Analytics</h1>
-    <p align="center"><strong>Understanding Our Clients</strong></p>
-    <p align="center"><strong><img src="../consulting1.jpg" width="234" height="126" /></strong></p>
+    <h2 align="center"><strong>The Ephemeris Approach to Data Analytics</strong></h2>
+    <p align="center"><strong>Understanding Our Clients</strong>    </p>
     <p align="center"> We believe the first step to providing the highest quality analytics and consulting is understanding each client's unique situation and set of needs. Our team of consultants will work side-by-side with our clients to obtain a deep knowledge of how your organization functions, and which key performance metrics you want to drive.    </p>
-    <p align="center"><strong>Understanding The Data</strong></p>
-    <p align="center"><img src="../datatape1.jpg" width="238" height="119" /></p>
+    <p align="center"><strong>Understanding The Data</strong>    </p>
     <p align="center"> Ephemeris data scientists will work tirelessly to process, evaluate, and model the data we extract from your organization in order to draw meaningful connections between customer data and performance targets. Our custom models are built on the most cutting edge Machine Learning and Data Science in order to deliver the most accurate results and predictions possible.    </p>
-    <p align="center"><strong>Bringing Meaning to The Numbers</strong> </p>
-    <p align="center"><img src="../neuralnetwork1.jpg" width="248" height="139" /></p>
-    <p align="center">We believe that you shouldn't need a background in data science in order to utilize the powerful insights of data analytics. Unlike the majority of data analytics platforms, Ephemeris Solutions generates reports that translate our findings in the data into actionable advice and directions for your business in order for you to get the most out of the information we extrapolate from the data and help drive your organization's bottom line.</p>
+    <p align="center"><strong>Bringing Meaning to The Numbers</strong></p>
+    <p align="center">We believe that you shouldn't need a background in data science in order to utilize the powerful insights of data analytics. Ephemeris Solutions generates reports that translate our findings in the data into actionable advice and directions for your business in order for you to get the most out of the information we extrapolate, and help drive your organization's bottom line.</p>
     <h2 align="center">About Us</h2>
-    <p align="center">Ephemeris Solutions was founded in 2019 as an initiative to provide small and medium enterprises with the same level of data analytics consulting as what is leveraged by many of the large corporations and multinationals in order to optimise their performance. The data analytics platforms currently available to small business owners provide very little insight and require a deep understanding of data science in order to extrapolate meaning from the information provided.</p>
-    <p align="center">Ephemeris Solutions takes a client-oriented approach to data analytics with tailor-made models for each client with reports that help explain our findings, and direct the client towards a course of actions to drive their target metrics.</p>
-    <p align="center">Ephemeris provides all of these services at an unrivaled pricepoint, bringing a technology once only accessable to multinational corporations into small businesses accross Canada.</p>
+    <p align="center"><img src="../consulting1.jpg" width="576" height="272" align="absmiddle" /></p>
+    <p align="center">Ephemeris Solutions was founded in 2019 as an initiative to provide small and medium enterprises with the same level of data analytics consulting on par wtih big data analytics leveraged by many of the large corporations and multinationals in order to optimise their performance.</p>
+    <p align="center">Ephemeris Solutions takes a client-oriented approach to small business analytics, in stark contrast to many of the analytics resources available to small and medium sized organizations.</p>
+    <p align="center">Ephemeris provides all of these services at an unrivaled pricepoint, making our services accessable to all small and medium sized businesses accross Canada.</p>
     <h3 align="center"><strong>Coming Soon</strong></h3>
     <p align="left"><strong>Ephemeris Cybersecurity </strong>- Ephemeris Solutions is currently developing a server penetration testing system in order to keep your business safe from potential downtime as well as SQL injections, leaking sensetive information about your organization and its customers.</p>
     <p align="left"><!-- end .content --><strong>Ephemeris Digital Marketing </strong>- In order to help our clients drive sales performance, Ephemeris will additionally be offering marketing services related to branding, advertising, website development, as well as search engine optimization in order to help your business establish a presence on the digital frontier.</p>
   </div>
   <div class="footer"> 
-    <h4 align="center" class="footer">CONTACT US</h4>
+    <h4 align="center" class="footer"><strong>CONTACT US</strong></h4>
     <p align="center"> (647) 609 5264</p>
-    <p align="center">j.wolfe@ephemerissolutions.com  </p>
-    <p align="center">474 Hillsdale Ave E, Toronto ON M4S 1V2</p>
+    <p align="center">info@ephemerissolutions.com  </p>
   </div>
   <div align="center"><!-- end .container --></div>
 </div>
