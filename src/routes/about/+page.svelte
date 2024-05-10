@@ -47,20 +47,7 @@
     margin-top: 1rem;
   }
 </style>
-
 <main>
-  <nav class="white">
-    <div class="flex flex-row nav-wrapper container">
-      <ul class="flex w-full justify-center space-x-3">
-        <li>
-          <a href="/about" class="text-black">About me</a>
-        </li>
-        <li>
-          <a href="/contact" class="text-black">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
   <div class="parallax-container">
     <div class="parallax">
       <img src={sunImage} class="object-cover" alt="In front of the sun.">
